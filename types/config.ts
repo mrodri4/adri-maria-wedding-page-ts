@@ -19,6 +19,7 @@ export type Theme =
   | "wireframe"
   | "black"
   | "luxury"
+  | "autumn"
   | "dracula"
   | "";
 
