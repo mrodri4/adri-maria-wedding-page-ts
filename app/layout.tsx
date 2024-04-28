@@ -1,13 +1,17 @@
 import { ReactNode } from "react";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { Viewport } from "next";
 import PlausibleProvider from "next-plausible";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
+
 import "./globals.css";
 
-const font = Inter({ subsets: ["latin"] });
+const font = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
+});
 
 export const viewport: Viewport = {
   // Will use the primary color of your theme to show a nice theme color in the URL bar of supported browsers

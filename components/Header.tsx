@@ -1,33 +1,38 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import type { JSX } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import ButtonSignin from "./ButtonSignin";
+
 import logo from "@/app/icon.png";
 import config from "@/config";
+
+import { Playfair_Display_SC } from "next/font/google";
+import clsx from "clsx";
+
+const font = Playfair_Display_SC({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"]
+});
 
 const links: {
   href: string;
   label: string;
 }[] = [
   {
-    href: "/#pricing",
-    label: "Pricing",
+    href: "/#pre-boda",
+    label: "Pre Boda",
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
+    href: "/#tenerife",
+    label: "Descubre Tenerife",
   },
   {
-    href: "/#faq",
-    label: "FAQ",
-  },
+    href: "/#asistencia",
+    label: "Asistencia",
+  }
 ];
-
-const cta: JSX.Element = <ButtonSignin extraStyle="btn-primary" />;
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
 // The header is responsive, and on mobile, the links are hidden behind a burger button.
@@ -41,32 +46,28 @@ const Header = () => {
   }, [searchParams]);
 
   return (
-    <header className="bg-base-200">
+    <header className="sticky top-0 z-[99] bg-base-100 border-b border-base-content/10">
       <nav
-        className="container flex items-center justify-between px-8 py-4 mx-auto"
+        className="max-w-7xl container flex items-center justify-between px-8 py-4 mx-auto"
         aria-label="Global"
       >
         {/* Your logo/name on large screens */}
-        <div className="flex lg:flex-1">
+        <div className="flex lg:flex-1 mx-auto lg:mx-0">
           <Link
-            className="flex items-center gap-2 shrink-0 "
+            className="flex items-center gap-1 shrink-0 "
             href="/"
             title={`${config.appName} homepage`}
           >
-            <Image
-              src={logo}
-              alt={`${config.appName} logo`}
-              className="w-8"
-              placeholder="blur"
-              priority={true}
-              width={32}
-              height={32}
-            />
-            <span className="font-extrabold text-lg">{config.appName}</span>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" className="w-8 h-8 stroke-secondary">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg> */}
+            <span className={clsx("text-primary text-3xl", font.className)}>M</span>
+            <span className={clsx("text-primary mt-auto")}>&</span>
+            <span className={clsx("text-primary text-3xl", font.className)}>A</span>
           </Link>
         </div>
         {/* Burger button to open menu on mobile */}
-        <div className="flex lg:hidden">
+        <div className="hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
@@ -96,16 +97,13 @@ const Header = () => {
             <Link
               href={link.href}
               key={link.href}
-              className="link link-hover"
+              className="cursor-pointer text-secondary hover:underline"
               title={link.label}
             >
               {link.label}
             </Link>
           ))}
         </div>
-
-        {/* CTA on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
       </nav>
 
       {/* Mobile menu, show/hide based on menu state. */}
@@ -171,8 +169,6 @@ const Header = () => {
               </div>
             </div>
             <div className="divider"></div>
-            {/* Your CTA on small screens */}
-            <div className="flex flex-col">{cta}</div>
           </div>
         </div>
       </div>
