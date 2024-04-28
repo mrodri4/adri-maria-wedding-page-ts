@@ -13,7 +13,7 @@ const font = Playfair_Display_SC({
 
 const Asistencia = () => {
   return (
-    <section id="asistencia" className="flex bg-base-100 md:min-h-[calc(100vh-56px)] relative">
+    <section id="asistencia" className="flex md:min-h-[calc(100vh-56px)] relative">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-32 px-8 py-8 lg:py-20">
         <div className="max-lg:min-w-[50%] md:w-2/5 relative shrink-0">
           <div className="hidden lg:block md:w-2/3 translate-y-[-15%] translate-x-[-10%]">
