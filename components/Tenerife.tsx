@@ -444,8 +444,8 @@ const Item = ({
       <li className="lg:hidden">
         <ul className="flex flex-col gap-2">
           {feature.list.slice(0, 2).map((item) => (
-            <li key={item.label}>
-              <a target="_blank" href={item.href}>{item.label}</a>
+            <li key={item.label} className="flex justify-center">
+              <a className="underline" target="_blank" href={item.href}>{item.label}</a>
             </li>
           ))}
         </ul>
@@ -484,7 +484,7 @@ const Item = ({
             <ul className="pl-4 flex flex-col gap-3">
               {feature.list.map((item) => (
                 <li key={item.label}>
-                  <a target="_blank" href={item.href}>{item.label}</a>
+                  <a className="underline" target="_blank" href={item.href}>{item.label}</a>
                 </li>
               ))}
             </ul>
@@ -553,9 +553,9 @@ const Tenerife = () => {
       className="flex px-8 py-8 lg:py-32 space-y-24 lg:space-y-32 max-w-7xl mx-auto relative lg:min-h-screen"
       id="tenerife"
     >
-      <div className="px-8">
+      <div className="lg:px-8">
         <Image
-          className="min-w-32 w-[10vw] mb-8 lg:absolute lg:-top-16 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-14"
+          className="mx-auto min-w-32 w-[10vw] mb-8 lg:absolute lg:-top-16 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-14"
           src={Leaves3}
           alt="Leaves"
           priority={true}
@@ -567,7 +567,7 @@ const Tenerife = () => {
         </h2>
         <div className="flex flex-col gap-10 items-center lg:items-start">
           <div className="flex flex-col gap-4 items-center lg:items-start w-4/5 lg:w-3/5">
-            <p className="text-lg opacity-80 leading-relaxed">
+            <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
               ¡Bienvenidos a Tenerife!
             </p>
             <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
@@ -578,7 +578,7 @@ const Tenerife = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 items-stretch gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-32">
-            <ul className="w-full grid sm:grid-cols-2 gap-x-24 gap-y-12 lg:gap-x-0 lg:gap-y-0 lg:grid-cols-1">
+            <ul className="w-full grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:gap-y-0 lg:grid-cols-1">
               {features.map((feature, i) => (
                 <Item
                   key={feature.title}
