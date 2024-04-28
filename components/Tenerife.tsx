@@ -525,7 +525,7 @@ const Media = ({ feature }: { feature: Feature }) => {
         const { container, content } = getMediaClassName(index);
 
         return (
-          <div className={container}>
+          <div className={container} key={alt}>
             <div className={content}>
               <Image
                 className="w-full rounded-md object-center grayscale"
