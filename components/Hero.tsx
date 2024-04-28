@@ -21,9 +21,9 @@ const font = Playfair_Display_SC({
 const Hero = () => {
   return (
     <section className="flex bg-base-100 md:min-h-[calc(100vh-65px)]">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-32 px-8 py-8 lg:py-20">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-center gap-16 lg:gap-32 px-8 py-8 lg:py-20">
         <div className="flex flex-col gap-4 items-center justify-center text-center lg:text-left lg:items-start">
-          <h1 className={clsx("text-primary text-4xl lg:text-6xl mb-8", font.className)}>
+          <h1 className={clsx("hidden lg:block text-primary text-4xl lg:text-6xl mb-8", font.className)}>
             MARÍA Y ADRIÁN
           </h1>
           <p className="text-lg opacity-80 leading-relaxed flex items-center gap-4">
@@ -71,6 +71,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <h1 className={clsx("lg:hidden text-primary text-4xl lg:text-6xl", font.className)}>
+          MARÍA Y ADRIÁN
+        </h1>
       </div>
     </section>
   );
