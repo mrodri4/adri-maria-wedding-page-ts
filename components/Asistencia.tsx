@@ -5,6 +5,7 @@ import { Playfair_Display_SC } from "next/font/google";
 import Photo1 from "@/public/images/adri-maria-grid-8.jpg";
 import Photo2 from "@/public/images/adri-maria-grid-9.jpg";
 import Leaves3 from "@/public/images/leaves3.png";
+import AsistenciaForm from "./AsistenciaForm";
 
 const font = Playfair_Display_SC({
   subsets: ["latin"],
@@ -53,27 +54,7 @@ const Asistencia = () => {
           <h2 className={clsx("text-primary text-4xl lg:text-6xl mb-8", font.className)}>
             TE ESPERAMOS
           </h2>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
-          <p className="text-lg lg:text-xl">
-            Formulario de asistencia
-          </p>
+          <AsistenciaForm />
         </div>
       </div>
     </section>
