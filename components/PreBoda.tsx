@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Playfair_Display_SC } from "next/font/google";
 
 import Photo2 from "@/public/images/adri-maria-grid-4.jpg";
-import Photo1 from "@/public/images/adri-maria-hero.jpg";
+import Photo1 from "@/public/images/adri-maria-grid-8.jpg";
 import Leaves3 from "@/public/images/leaves3.png";
 
 const font = Playfair_Display_SC({

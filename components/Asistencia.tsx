@@ -2,8 +2,8 @@ import clsx from "clsx";
 import Image from "next/image";
 import { Playfair_Display_SC } from "next/font/google";
 
-import Photo1 from "@/public/images/adri-maria-grid-8.jpg";
-import Photo2 from "@/public/images/adri-maria-grid-9.jpg";
+import Photo1 from "@/public/images/adri-maria-grid-9.jpg";
+import Photo2 from "@/public/images/adri-maria-grid-2.jpg";
 import Leaves3 from "@/public/images/leaves3.png";
 import AsistenciaForm from "./AsistenciaForm";
 

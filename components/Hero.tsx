@@ -5,8 +5,7 @@ import Link from "next/link";
 import { Playfair_Display_SC } from "next/font/google";
 // import { Sofia_Sans_Condensed } from "next/font/google";
 
-import AdriMaria from "@/public/images/adri-maria-grid-2.jpg";
-// import AdriMaria from "@/public/images/adri-maria-hero.jpg";
+import AdriMaria from "@/public/images/adri-maria-hero.jpg";
 
 // const font = Sofia_Sans_Condensed({
 //   subsets: ["latin"],
