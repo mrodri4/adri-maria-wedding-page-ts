@@ -528,7 +528,7 @@ const Media = ({ feature }: { feature: Feature }) => {
           <div className={container} key={alt}>
             <div className={content}>
               <Image
-                className="w-full rounded-md object-center grayscale"
+                className="w-full rounded-md object-center"
                 src={image}
                 alt={alt}
                 priority={true}
@@ -568,13 +568,13 @@ const Tenerife = () => {
         <div className="flex flex-col gap-10 items-center lg:items-start">
           <div className="flex flex-col gap-4 items-center lg:items-start w-4/5 lg:w-3/5">
             <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
-              ¡Bienvenidos a Tenerife!
+              Para que podáis conocer y disfrutar mejor de Tenerife, os hemos preparado un listado con recomendaciones y lugares imprescindibles de la isla. Desde charcos y playas hasta la montaña, pasando por la mejor gastronomía del lugar.
             </p>
             <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
-              Hemos preparado un listado de lugares imperdibles y recomendaciones para que disfrutéis de la isla durante vuestra visita. Desde playas hasta montañas y gastronomía, esperamos que cada momento aquí sea especial.
+              Esperamos que cada momento aquí sea especial.
             </p>
-            <p className="text-lg opacity-80 leading-relaxed">
-              ¡Disfrutad del paraíso!
+            <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
+              Disfrutad de la isla, ¡disfrutad del paraíso!
             </p>
           </div>
           <div className="grid grid-cols-1 items-stretch gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-32">
