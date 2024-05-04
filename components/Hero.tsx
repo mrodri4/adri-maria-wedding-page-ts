@@ -51,7 +51,7 @@ const Hero = () => {
               Adrián
             </p>
           </div>
-          <div className="mt-4 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col gap-5">
             <p className="text-lg opacity-80 leading-relaxed">
               Nos conocimos en plena pandemia, en un momento donde el mundo estaba revolucionado. Después de llamarnos la atención mutuamente durante los largos turnos de trabajo, acabamos quedando para cenar una noche y conocernos mejor.
             </p>
