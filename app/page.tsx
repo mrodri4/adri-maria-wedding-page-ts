@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Hero from "@/components/Hero";
 import PreBoda from "@/components/PreBoda";
+import Boda from "@/components/Boda";
 import Tenerife from "@/components/Tenerife";
 import Asistencia from "@/components/Asistencia";
 import Header from "@/components/Header";
@@ -32,6 +33,7 @@ export default function Page() {
       <Header />
       <Hero />
       <PreBoda />
+      <Boda />
       <Tenerife />
       <Asistencia />
       <Footer />

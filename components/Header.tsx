@@ -24,6 +24,10 @@ const links: {
     label: "Pre Boda",
   },
   {
+    href: "/#boda",
+    label: "Boda",
+  },
+  {
     href: "/#tenerife",
     label: "Descubre Tenerife",
   },
