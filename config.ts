@@ -3,7 +3,7 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "M & A",
+  appName: "María y Adrián",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
     "La web de nuestra boda, con toda la información necesaria para que no te pierdas nada.",
