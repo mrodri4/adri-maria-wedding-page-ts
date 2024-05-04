@@ -1,6 +1,15 @@
 function AsistenciaForm() {
   return (
-    <div>AsistenciaForm</div>
+    <div>
+      <div>
+        <label className="form-control w-full">
+          <div className="label">
+            <span className="label-text">Nombre:</span>
+          </div>
+          <input type="text" placeholder="Type here" className="input input-bordered w-full" />
+        </label>
+      </div>
+    </div>
   )
 }
 
