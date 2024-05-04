@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import config from "@/config";
+import AdriMaria from "@/public/images/adri-maria-hero.jpg";
 
 // These are all the SEO tags you can add to your pages.
 // It prefills data with default title/description/OG, etc.. and you can cusotmize it for each page.
@@ -38,14 +39,14 @@ export const getSEOTags = ({
       url: openGraph?.url || `https://${config.domainName}/`,
       siteName: openGraph?.title || config.appName,
       // If you add an opengraph-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
-      // images: [
-      //   {
-      //     url: `https://${config.domainName}/share.png`,
-      //     width: 1200,
-      //     height: 660,
-      //   },
-      // ],
-      locale: "en_US",
+      images: [
+        {
+          url: AdriMaria.src,
+          width: AdriMaria.width / 2,
+          height: AdriMaria.height / 2
+        },
+      ],
+      locale: "es_ES",
       type: "website",
     },
 
@@ -53,7 +54,11 @@ export const getSEOTags = ({
       title: openGraph?.title || config.appName,
       description: openGraph?.description || config.appDescription,
       // If you add an twitter-image.(jpg|jpeg|png|gif) image to the /app folder, you don't need the code below
-      // images: [openGraph?.image || defaults.og.image],
+      images: [{
+        url: AdriMaria.src,
+        width: AdriMaria.width / 2,
+        height: AdriMaria.height / 2
+      }],
       card: "summary_large_image",
       creator: "@manurodri",
     },
