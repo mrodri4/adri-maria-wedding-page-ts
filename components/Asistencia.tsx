@@ -42,7 +42,7 @@ const Asistencia = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 items-center justify-center text-center lg:text-left lg:items-start">
+        <div className="flex flex-col w-full gap-4 items-center justify-center text-center lg:text-left lg:items-start">
           <Image
             className="min-w-32 w-[10vw] mb-8 lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-14"
             src={Leaves3}
