@@ -1,3 +1,5 @@
+'use client';
+
 function AsistenciaForm() {
   return (
     <div className="w-full flex flex-col gap-4">
@@ -47,6 +49,20 @@ function AsistenciaForm() {
         </div>
         <input type="text" placeholder="Amaral - Son mis amigos" className="input input-bordered w-full" />
       </label>
+      <div className="flex flex-col gap-4">
+        <p>Hemos decidido que nuestra Luna de miel la vamos a disfrutar en Madagascar e Islas Mauricio.  Como sabéis, son dos lugares que siempre nos han llamado la atención desde que empezamos a mirar destinos y qué mejor momento que ahora para poder cumplir este sueño.</p>
+        <p>Sin lugar a dudas, vuestra compañía en nuestro dia mas especial es el mejor regalo, pero si además queréis contribuir de alguna otra forma, podéis hacer aquí:</p>
+        <div className="flex flex-col gap-4 mt-2">
+          <p>Banco: Openbank.</p>
+          <p>Beneficiarios: María y Adrián.</p>
+          <p>Concepto: Boda MA.</p>
+          <button className="btn" onClick={() => {
+            navigator.clipboard.writeText('ES3800730100570821271177');
+          }}>
+            IBAN: ES3800730100570821271177
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
