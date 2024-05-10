@@ -440,58 +440,47 @@ const Item = ({
   const { title, svg } = feature;
 
   return (
-    <>
-      <li className="lg:hidden">
-        <ul className="flex flex-col gap-2">
-          {feature.list.slice(0, 2).map((item) => (
-            <li key={item.label} className="flex justify-center">
-              <a className="underline" target="_blank" href={item.href}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-      </li>
-      <li className="max-lg:hidden">
-        <button
-          className="relative flex gap-2 items-center w-full py-5 text-base font-medium text-left md:text-lg"
-          onClick={(e) => {
-            e.preventDefault();
-            setFeatureSelected();
-          }}
-          aria-expanded={isOpen}
+    <li>
+      <button
+        className="relative flex gap-2 items-center w-full py-5 text-base font-medium text-left md:text-lg"
+        onClick={(e) => {
+          e.preventDefault();
+          setFeatureSelected();
+        }}
+        aria-expanded={isOpen}
+      >
+        <span className={`duration-100 ${isOpen ? "text-primary" : ""}`}>
+          {svg}
+        </span>
+        <span
+          className={`flex-1 text-base-content ${
+            isOpen ? "text-primary font-semibold" : ""
+          }`}
         >
-          <span className={`duration-100 ${isOpen ? "text-primary" : ""}`}>
-            {svg}
-          </span>
-          <span
-            className={`flex-1 text-base-content ${
-              isOpen ? "text-primary font-semibold" : ""
-            }`}
-          >
-            <h4 className="inline">{title}</h4>
-          </span>
-        </button>
+          <h4 className="inline">{title}</h4>
+        </span>
+      </button>
 
-        <div
-          ref={accordion}
-          className={`transition-all duration-300 ease-in-out text-base-content-secondary overflow-hidden`}
-          style={
-            isOpen
-              ? { maxHeight: accordion?.current?.scrollHeight, opacity: 1 }
-              : { maxHeight: 0, opacity: 0 }
-          }
-        >
-          {feature.list && (
-            <ul className="pl-4 flex flex-col gap-3">
-              {feature.list.map((item) => (
-                <li key={item.label}>
-                  <a className="underline" target="_blank" href={item.href}>{item.label}</a>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      </li>
-    </>
+      <div
+        ref={accordion}
+        className={`transition-all duration-300 ease-in-out text-base-content-secondary overflow-hidden`}
+        style={
+          isOpen
+            ? { maxHeight: accordion?.current?.scrollHeight, opacity: 1 }
+            : { maxHeight: 0, opacity: 0 }
+        }
+      >
+        {feature.list && (
+          <ul className="pl-4 flex flex-col gap-3">
+            {feature.list.map((item) => (
+              <li key={item.label}>
+                <a className="underline" target="_blank" href={item.href}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </li>
   );
 };
 
