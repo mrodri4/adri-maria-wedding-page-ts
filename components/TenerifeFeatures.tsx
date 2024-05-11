@@ -337,7 +337,7 @@ export const TenerifeFeatures = [
     ]
   },
   {
-    title: "Lugares para visitar",
+    title: "Turismo",
     images: [
       Tenerife1,
       Tenerife10
@@ -386,16 +386,74 @@ export const TenerifeFeatures = [
         </svg>
     ),
     list: [
-      { label: "Parque Nacional del Teide", href: "https://www.google.es/maps/place/Parque+Nacional+del+Teide/@28.2538834,-16.6208431,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a8398062de729:0x67633a63c20a292d!8m2!3d28.2538787!4d-16.6182682!16s%2Fm%2F0bh9xdy?entry=ttu" },
-      { label: "Acantilados de Los Gigantes", href: "https://www.google.es/maps/place/Acantilados+de+Los+Gigantes,+Santa+Cruz+de+Tenerife/@28.2440365,-16.8456497,16z/data=!3m1!4b1!4m6!3m5!1s0xc6a8c153fdc6811:0xa0340f674cf6610!8m2!3d28.2408828!4d-16.8377834!16s%2Fm%2F026dqlb?entry=ttu" },
-      { label: "Punta de Teno", href: "https://www.google.es/maps/place/Punta+de+Teno/@28.341991,-16.9278637,17z/data=!3m1!4b1!4m6!3m5!1s0xc6af556562cd973:0xb33fd69dba7b64b8!8m2!3d28.3419864!4d-16.9229928!16s%2Fg%2F122np58h?entry=ttu" },
-      { label: "La Orotava", href: "https://www.google.es/maps/place/La+Orotava,+Santa+Cruz+de+Tenerife/@28.3929436,-16.5287568,15z/data=!3m1!4b1!4m6!3m5!1s0xc402aae32ddf575:0x27206a076b427988!8m2!3d28.3892926!4d-16.525264!16zL20vMDdrcmx5?entry=ttu" },
-      { label: "Casa de los Balcones", href: "https://www.google.es/maps/place/La+Casa+de+Los+Balcones.+Artesan%C3%ADa+Canaria+-+Gastronom%C3%ADa+-+Traje+t%C3%ADpico+de+la+Orotava/@28.388338,-16.5284082,17z/data=!3m1!4b1!4m6!3m5!1s0xc402aae7ef83877:0xc48380e24bce8ec7!8m2!3d28.3883333!4d-16.5258333!16s%2Fm%2F02p_twk?entry=ttu" },
-      { label: "La Laguna", href: "https://www.google.es/maps/place/La+Laguna,+Santa+Cruz+de+Tenerife/@28.6331153,-17.9207524,16z/data=!3m1!4b1!4m6!3m5!1s0xc6bf3adfaa4cc27:0x52f4c197c7a03883!8m2!3d28.6316439!4d-17.9109656!16s%2Fg%2F11y020f70?entry=ttu" },
-      { label: "Garachico", href: "https://www.google.es/maps/place/Garachico,+Santa+Cruz+de+Tenerife/@28.3725616,-16.7656622,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a62846a5f860b:0xece9e1aeb7cea23c!8m2!3d28.3732467!4d-16.7640103!16zL20vMDc5MjYx?entry=ttu" },
-      { label: "Candelaria", href: "https://www.google.es/maps/place/Candelaria,+Santa+Cruz+de+Tenerife/@28.3769474,-16.4336679,13z/data=!3m1!4b1!4m6!3m5!1s0xc402d02ba407611:0xd8cfcaf0e20dd5ae!8m2!3d28.3557192!4d-16.3719006!16zL20vMDcxN2x4?entry=ttu" },
-      { label: "Mirador de Humboldt", href: "https://www.google.es/maps/place/Mirador+de+Humboldt/@28.3769474,-16.4336679,13z/data=!4m6!3m5!1s0xc41d5376be35a3d:0x282efe6c886edc58!8m2!3d28.4077912!4d-16.5071779!16s%2Fg%2F11b6b4gdls?entry=ttu" },
-      { label: "Mirador de Ayosa", href: "https://www.google.es/maps/place/Mirador+de+Ayosa/@28.3559784,-16.4707435,17z/data=!3m1!4b1!4m6!3m5!1s0xc402ba0914993cf:0x3556f4f7060253b4!8m2!3d28.3559737!4d-16.4681686!16s%2Fg%2F11gbk5gh_5?entry=ttu" }
+      { label: 'Masca', href:'https://www.google.es/maps/place/38489+Masca,+Santa+Cruz+de+Tenerife/@28.3375029,-17.0615134,10.84z/data=!4m6!3m5!1s0xc6a8bc99a78823b:0xa0340f674cfb310!8m2!3d28.3053534!4d-16.8399144!16zL20vMDhfcmg4?hl=es&entry=ttu' },
+      { label: 'El Teide', href:'https://www.google.es/maps/place/Pico+del+Teide/@28.2723742,-16.6631076,14z/data=!3m1!4b1!4m6!3m5!1s0xc6a841219a46745:0x8da5b0b3d4897f14!8m2!3d28.2723384!4d-16.642508!16zL20vMDJxbGg0?hl=es&entry=ttu' },
+      { label: 'El drago milenario (Icod de los vinos)', href:'https://www.google.es/maps/place/Drago+Milenario/@28.3666639,-16.7250135,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fe3e4fe6b9:0x97ae382934e71374!8m2!3d28.3666592!4d-16.7224386!16s%2Fg%2F1211pd9l?hl=es&entry=ttu' },
+      { label: 'Mariposario (icod de los vinos)', href:'https://www.google.es/maps/place/Mariposario+del+Drago/@28.3672046,-16.7245365,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fe384ce6b9:0xceb5bdaf3c115c8d!8m2!3d28.3671999!4d-16.7219616!16s%2Fg%2F1234nj1x?hl=es&entry=ttu' },
+      { label: 'Los acantilados de los gigantes', href:'https://www.google.es/maps/place/Acantilados+de+Los+Gigantes,+Santa+Cruz+de+Tenerife/@28.2440365,-16.8456497,16z/data=!3m1!4b1!4m6!3m5!1s0xc6a8c153fdc6811:0xa0340f674cf6610!8m2!3d28.2408828!4d-16.8377834!16s%2Fm%2F026dqlb?hl=es&entry=ttu' },
+      { label: 'La punta de teno', href:'https://www.google.es/maps/place/Punta+de+Teno/@28.3419864,-16.9274989,17z/data=!4m10!1m2!2m1!1sLa+punta+de+teno!3m6!1s0xc6af556562cd973:0xb33fd69dba7b64b8!8m2!3d28.3419864!4d-16.9229928!15sChBMYSBwdW50YSBkZSB0ZW5vWhIiEGxhIHB1bnRhIGRlIHRlbm-SAQ9uYXR1cmVfcHJlc2VydmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlRNVFJoT1RGblJSQULgAQA!16s%2Fg%2F122np58h?hl=es&entry=ttu' },
+      { label: 'La orotava y visitar la casa de los balcones', href:'https://www.google.es/maps/place/La+Casa+de+Los+Balcones.+Artesan%C3%ADa+Canaria+-+Gastronom%C3%ADa+-+Traje+t%C3%ADpico+de+la+Orotava/@28.3824897,-16.5430892,14.67z/data=!4m6!3m5!1s0xc402aae7ef83877:0xc48380e24bce8ec7!8m2!3d28.3883333!4d-16.5258333!16s%2Fm%2F02p_twk?hl=es&entry=ttu' },
+      { label: 'La laguna y su casco histórico', href:'https://www.google.es/maps/place/Catedral+de+San+Cristobal+de+La+Laguna/@28.4894518,-16.3185253,17.17z/data=!4m10!1m2!2m1!1sla+laguna+casco+historico!3m6!1s0xc41cdb92e5579ad:0xae03debc6d44daf9!8m2!3d28.488914!4d-16.3160518!15sChlsYSBsYWd1bmEgY2FzY28gaGlzdG9yaWNvWhsiGWxhIGxhZ3VuYSBjYXNjbyBoaXN0b3JpY2-SARJjYXRob2xpY19jYXRoZWRyYWyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjFka3hmUVhGblJSQULgAQA!16s%2Fm%2F09gffy6?hl=es&entry=ttu' },
+      { label: 'Mirador de humnoldt', href:'https://www.google.es/maps/place/Mirador+de+Humboldt/@28.4009544,-16.5309747,13.59z/data=!4m6!3m5!1s0xc41d5376be35a3d:0x282efe6c886edc58!8m2!3d28.4077912!4d-16.5071779!16s%2Fg%2F11b6b4gdls?hl=es&entry=ttu' },
+      { label: 'Los roques de Anaga', href:'https://www.google.es/maps/place/Roques+de+Anaga/@28.5930145,-16.1789333,14z/data=!4m10!1m2!2m1!1sLos+roques+de+Anaga!3m6!1s0xc41c8200a646dff:0x501940effb40baa!8m2!3d28.5930128!4d-16.158861!15sChNMb3Mgcm9xdWVzIGRlIEFuYWdhWhUiE2xvcyByb3F1ZXMgZGUgYW5hZ2HgAQA!16s%2Fm%2F0bm9h64?hl=es&entry=ttu' },
+      { label: 'Mirador de chipeque', href:'https://www.google.es/maps/place/Mirador+de+Chipeque/@28.2674124,-16.6108531,11.03z/data=!4m6!3m5!1s0xc402b6cadcf9a23:0x936ea81287b57298!8m2!3d28.3739518!4d-16.4638328!16s%2Fg%2F11bzxzyzxd?hl=es&entry=ttu' },
+      { label: 'Mirador de ayosa (teide atardecer)', href:'https://www.google.es/maps/place/Mirador+de+Ayosa/@28.3487635,-16.5034472,13.77z/data=!4m6!3m5!1s0xc402ba0914993cf:0x3556f4f7060253b4!8m2!3d28.3559737!4d-16.4681686!16s%2Fg%2F11gbk5gh_5?hl=es&entry=ttu' },
+      { label: 'Candelaria', href:'https://www.google.es/maps/place/Bas%C3%ADlica+de+Candelaria/@28.3539929,-16.3725359,17.16z/data=!4m15!1m8!3m7!1s0xc402d02ba407611:0xd8cfcaf0e20dd5ae!2sCandelaria,+Santa+Cruz+de+Tenerife!3b1!8m2!3d28.3557192!4d-16.3719006!16zL20vMDcxN2x4!3m5!1s0xc402d95f77bb14f:0xa85d8a60c85b2c4!8m2!3d28.3512934!4d-16.3694216!16s%2Fm%2F09gmvvw?hl=es&entry=ttu' }
+    ]
+  },
+  {
+    title: "Trecking",
+    images: [
+      Tenerife5,
+      Tenerife6
+    ],
+    svg: (
+      <svg className="w-8 h-8 stroke-secondary" viewBox="0 0 64 64" version="1.1">
+            <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="clo-converse">
+
+        </g>
+                <path d="M44.35,36.615 C39.936,35.801 35.373,34.958 32.707,32.293 C29.8,29.386 28,22.61 28,18 C28,14.411 25.303,12 21.288,12 L5,12 C4.447,12 4,12.448 4,13 L4,51 C4,52.654 5.346,54 7,54 L55,54 C56.654,54 58,52.654 58,51 L58,47 C58,39.134 51.061,37.853 44.35,36.615 L44.35,36.615 Z M55.942,46 L44,46 L44,38.584 C50.075,39.705 55.362,40.69 55.942,46 L55.942,46 Z M20.005,14 L20.005,14.006 C20.011,14.555 20.457,14.996 21.005,14.996 L21.016,14.996 C21.55,14.99 21.973,14.564 21.995,14.037 C24.042,14.24 26,15.355 26,18 C26,23.12 27.979,30.395 31.293,33.707 C33.963,36.377 37.941,37.414 42,38.206 L42,40.99 C41.476,40.997 41.028,41.403 41.004,41.937 C40.98,42.489 41.407,42.956 41.959,42.98 C41.975,42.981 41.985,42.981 42,42.981 L42,46 L6,46 L6,14 L20.005,14 L20.005,14 Z M55,52 L7,52 C6.448,52 6,51.551 6,51 L6,48 L56,48 L56,51 C56,51.551 55.552,52 55,52 L55,52 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M26.27,36.683 C26.418,36.843 26.57,36.998 26.726,37.15 C26.92,37.34 27.172,37.435 27.424,37.435 C27.684,37.435 27.944,37.334 28.14,37.134 C28.526,36.738 28.518,36.106 28.122,35.72 C27.989,35.59 27.859,35.456 27.732,35.321 C27.445,35.012 27.168,34.681 26.906,34.338 C26.571,33.899 25.943,33.813 25.505,34.148 C25.066,34.482 24.981,35.11 25.315,35.549 C25.615,35.942 25.936,36.324 26.27,36.683 L26.27,36.683 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M22.409,30.013 C22.648,30.677 22.91,31.323 23.187,31.931 C23.355,32.3 23.718,32.517 24.098,32.517 C24.236,32.517 24.377,32.488 24.511,32.427 C25.014,32.198 25.236,31.605 25.007,31.103 C24.752,30.543 24.511,29.948 24.289,29.334 C24.102,28.815 23.527,28.547 23.01,28.732 C22.491,28.92 22.222,29.493 22.409,30.013 L22.409,30.013 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M35.842,42.047 C36.496,42.219 37.173,42.372 37.854,42.5 C37.916,42.512 37.978,42.517 38.04,42.517 C38.512,42.517 38.932,42.182 39.021,41.702 C39.124,41.159 38.766,40.637 38.223,40.535 C37.589,40.416 36.959,40.275 36.352,40.115 C35.82,39.973 35.272,40.292 35.13,40.827 C34.989,41.359 35.308,41.906 35.842,42.047 L35.842,42.047 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M30.074,39.701 C30.658,40.044 31.282,40.368 31.93,40.665 C32.065,40.727 32.206,40.756 32.345,40.756 C32.724,40.756 33.087,40.54 33.255,40.173 C33.485,39.671 33.265,39.077 32.762,38.847 C32.176,38.578 31.613,38.286 31.087,37.977 C30.61,37.698 29.998,37.856 29.718,38.333 C29.439,38.809 29.599,39.421 30.074,39.701 L30.074,39.701 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M20.866,24.075 C20.984,24.738 21.118,25.405 21.27,26.072 C21.375,26.536 21.788,26.85 22.244,26.85 C22.317,26.85 22.392,26.842 22.468,26.825 C23.006,26.702 23.343,26.166 23.22,25.628 C23.075,24.992 22.948,24.356 22.835,23.725 C22.738,23.182 22.226,22.818 21.675,22.916 C21.132,23.012 20.77,23.531 20.866,24.075 L20.866,24.075 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M21.312,20.956 C21.344,20.956 21.377,20.955 21.411,20.951 C21.961,20.897 22.362,20.408 22.308,19.858 C22.242,19.182 22.19,18.528 22.149,17.905 C22.112,17.354 21.628,16.94 21.085,16.973 C20.534,17.01 20.117,17.486 20.153,18.037 C20.196,18.681 20.25,19.356 20.318,20.054 C20.368,20.57 20.803,20.956 21.312,20.956 L21.312,20.956 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M11,42 C12.654,42 14,40.654 14,39 C14,37.346 12.654,36 11,36 C9.346,36 8,37.346 8,39 C8,40.654 9.346,42 11,42 L11,42 Z M11,38 C11.552,38 12,38.449 12,39 C12,39.551 11.552,40 11,40 C10.448,40 10,39.551 10,39 C10,38.449 10.448,38 11,38 L11,38 Z" id="Shape" fill="#000000">
+
+        </path>
+                <path d="M19,42 C20.654,42 22,40.654 22,39 C22,37.346 20.654,36 19,36 C17.346,36 16,37.346 16,39 C16,40.654 17.346,42 19,42 L19,42 Z M19,38 C19.552,38 20,38.449 20,39 C20,39.551 19.552,40 19,40 C18.448,40 18,39.551 18,39 C18,38.449 18.448,38 19,38 L19,38 Z" id="Shape" fill="#000000">
+
+        </path>
+            </g>
+        </svg>
+    ),
+    list: [
+      { label: 'Rambla de castro',	href: 'https://www.google.es/maps/place/Paisaje+Protegido+de+Rambla+de+Castro/@28.3948241,-16.5995142,16z/data=!4m10!1m2!2m1!1sRambla+de+castro!3m6!1s0xc6a7e3288345e03:0xdea2d03003764a6f!8m2!3d28.3948244!4d-16.5932633!15sChBSYW1ibGEgZGUgY2FzdHJvWhIiEHJhbWJsYSBkZSBjYXN0cm-SAQ9uYXR1cmVfcHJlc2VydmXgAQA!16s%2Fg%2F11_ylnpck?hl=es&entry=ttu' },
+      { label: 'Anaga (bosque de los enigmas).',	href: 'https://www.google.es/maps/place/Sendero+Bosque+de+los+Enigmas/@28.5317608,-16.3169738,14z/data=!4m10!1m2!2m1!1sAnaga+(bosque+de+los+enigmas).!3m6!1s0xc41cfc645ea3dc9:0x411cb93a8d46e050!8m2!3d28.5317608!4d-16.2809249!15sCh5BbmFnYSAoYm9zcXVlIGRlIGxvcyBlbmlnbWFzKS6SAQtoaWtpbmdfYXJlYeABAA!16s%2Fg%2F11mv_44h63?hl=es&entry=ttu' },
+      { label: 'Sendero de agua garcia',	href: 'https://www.google.es/maps/place/Agua+Garc%C3%ADa/@28.4609327,-16.4064925,17z/data=!3m1!4b1!4m6!3m5!1s0xc41d3af479d753f:0x119242bc702d58d5!8m2!3d28.460928!4d-16.4039176!16s%2Fg%2F11cjprh05j?hl=es&entry=ttu' },
+      { label: 'El teide (las 7 cañadas)',	href: 'https://www.google.es/maps/place/Siete+Ca%C3%B1adas/@28.2752371,-16.6858234,11.87z/data=!4m10!1m2!2m1!1sEl+teide+(las+7+ca%C3%B1adas,+paisaje+lunar,+roques+de+garcia).!3m6!1s0xc6a81891185033b:0x3d2b81c4c6175ee4!8m2!3d28.303788!4d-16.5662804!15sCjtFbCB0ZWlkZSAobGFzIDcgY2HDsWFkYXMsIHBhaXNhamUgbHVuYXIsIHJvcXVlcyBkZSBnYXJjaWEpLpIBC2hpa2luZ19hcmVh4AEA!16s%2Fg%2F11byxf4yfs?hl=es&entry=ttu' },
+      { label: 'El teide (Paisaje Lunar)',	href: 'https://www.google.es/maps/place/Paisaje+Lunar/data=!4m7!3m6!1s0xc6a9d04263be5a7:0x8eb0475bf42648fe!8m2!3d28.1900255!4d-16.603099!16s%2Fg%2F11v0fl6g9b!19sChIJp-U7JgSdagwR_kgm9FtHsI4?authuser=0&hl=es&rclk=1' },
+      { label: 'El teide (Roques de Garcia).',	href: 'https://www.google.es/maps/place/Roque+Cinchado/@28.2247578,-16.6522666,14z/data=!3m1!4b1!4m6!3m5!1s0xc6a849fa3d28e3b:0xe5698549fe055d84!8m2!3d28.224722!4d-16.631667!16s%2Fm%2F0bmd38m?authuser=0&hl=es&entry=ttu' },
+      { label: 'El barranco del infierno',	href: 'https://www.google.es/maps/place/Mirador+de+Barranco+del+Infierno/data=!4m7!3m6!1s0xc6a9b86e09c7339:0x86ed14407a20a565!8m2!3d28.1384315!4d-16.6960731!16s%2Fg%2F11smf_4xr9!19sChIJOXOc4IabagwRZaUgekAU7YY?authuser=0&hl=es&rclk=1' },
+      { label: 'Barranco de masca',	href: 'https://www.google.es/maps/place/Sendero+Barranco+de+Masca/data=!4m7!3m6!1s0xc6a8b5780e870b1:0x68c16c8cac19f520!8m2!3d28.3035134!4d-16.8400868!16s%2Fg%2F11r7ljcxt5!19sChIJsXDogFeLagwRIPUZrIxswWg?authuser=0&hl=es&rclk=1' },
+      { label: 'Parque rural de teno',	href: 'https://www.google.es/maps/place/Centro+de+Visitantes+Parque+Rural+de+Teno/data=!4m7!3m6!1s0xc6a8be7c0f8b1d9:0xea5bc32588569e95!8m2!3d28.3420489!4d-16.850957!16s%2Fg%2F11h75z0kk7!19sChIJ2bH4wOeLagwRlZ5WiCXDW-o?authuser=0&hl=es&rclk=1' },
+      { label: 'Malpais de güimar.',	href: 'https://www.google.es/maps/place/Malpa%C3%ADs+de+G%C3%BC%C3%ADmar/@28.3087287,-16.3910076,14z/data=!3m1!4b1!4m6!3m5!1s0xc402e6cd1bc001f:0x79fe2583e026dbb!8m2!3d28.3090546!4d-16.3728707!16s%2Fm%2F03y03mn?authuser=0&hl=es&entry=ttu' }
     ]
   },
   {
@@ -450,15 +508,10 @@ export const TenerifeFeatures = [
         </svg>
     ),
     list: [
-      { label: "Buceo", href: "https://www.google.es/maps/search/buceo+tenerife/@28.0430414,-16.5604242,14z/data=!3m1!4b1?entry=ttu" },
-      { label: "Windsurf en El Médano", href: "https://www.google.es/maps/search/windsurf+en+El+M%C3%A9dano/@28.042998,-16.5411121,18z?entry=ttu" },
-      { label: "Kitesurf en El Médano", href: "https://www.google.es/maps/search/Kitesurf+en+El+M%C3%A9dano/@28.042998,-16.5411121,18z/data=!3m1!4b1?entry=ttu" },
-      { label: "Siam Park", href: "https://www.google.es/maps/place/Siam+Park/@28.0720927,-16.7281601,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a9761aa8b026d:0x50a9300dccee68f2!8m2!3d28.072088!4d-16.7255852!16s%2Fm%2F03h44wr?entry=ttu" },
-      { label: "Loro Parque", href: "https://www.google.es/maps/place/Loro+Parque/@28.4085457,-16.5686976,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a7fc6f1bca7a1:0x2d783f66b7a8b668!8m2!3d28.408541!4d-16.5661227!16zL20vMDhmampn?entry=ttu" },
-      { label: "La Cueva del Viento", href: "https://www.google.es/maps/place/Cueva+del+Viento/@28.3516931,-16.7142663,15z/data=!4m6!3m5!1s0xc6a87ea381aeb55:0x5702ec614c7d68c1!8m2!3d28.3520121!4d-16.7039689!16s%2Fm%2F0dljr0_?entry=ttu" },
-      { label: "Pico del Teide", href: "https://www.google.es/maps/place/Pico+del+Teide/@28.2723565,-16.6528077,15z/data=!3m1!4b1!4m6!3m5!1s0xc6a841219a46745:0x8da5b0b3d4897f14!8m2!3d28.2723384!4d-16.642508!16zL20vMDJxbGg0?entry=ttu" },
-      { label: "Drago Milenario", href: "https://www.google.es/maps/place/Parque+del+Drago+Milenario/@28.3666639,-16.7250135,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fe3e4fe6b9:0x97ae382934e71374!8m2!3d28.3666592!4d-16.7224386!16s%2Fg%2F1211pd9l?entry=ttu" },
-      { label: "Mariposario", href: "https://www.google.es/maps/place/Mariposario+del+Drago/@28.3666639,-16.7250135,17z/data=!4m6!3m5!1s0xc6a87fe384ce6b9:0xceb5bdaf3c115c8d!8m2!3d28.3671999!4d-16.7219616!16s%2Fg%2F1234nj1x?entry=ttu" }
+      { label: 'Siam Park (parque acuático).', href:'https://www.google.es/maps/place/Siam+Park/@28.0720927,-16.7281601,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a9761aa8b026d:0x50a9300dccee68f2!8m2!3d28.072088!4d-16.7255852!16s%2Fm%2F03h44wr?authuser=0&hl=es&entry=ttu' },
+      { label: 'Loro parque (zoológico).', href:'https://www.google.es/maps/place/Loro+Parque/@28.4085457,-16.5686976,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a7fc6f1bca7a1:0x2d783f66b7a8b668!8m2!3d28.408541!4d-16.5661227!16zL20vMDhmampn?authuser=0&hl=es&entry=ttu' },
+      { label: 'La cueva del vierno (tubo volcánico mas grande de Europa).', href:'https://www.google.es/maps/place/38438+Cueva+del+Viento,+Santa+Cruz+de+Tenerife/@28.3517109,-16.7245662,14z/data=!3m1!4b1!4m6!3m5!1s0xc6a87dfc118de5d:0xa0340f674cf6790!8m2!3d28.3516751!4d-16.7039666!16s%2Fg%2F1td3mvrb?authuser=0&hl=es&entry=ttu' },
+      { label: 'Subir al pico del teide (reserva necesaria).', href:'https://www.google.es/maps/place/Telef%C3%A9rico+del+Teide/@28.2542729,-16.6296023,16.05z/data=!4m14!1m7!3m6!1s0xc6a8398062de729:0x67633a63c20a292d!2sParque+Nacional+del+Teide!8m2!3d28.2538787!4d-16.6182682!16s%2Fm%2F0bh9xdy!3m5!1s0xc6a8386feaf6b95:0x8a90b97491150633!8m2!3d28.2544624!4d-16.6258129!16s%2Fg%2F120jfbpd?authuser=0&hl=es&entry=ttu' }
     ]
   },
   {
@@ -508,8 +561,82 @@ export const TenerifeFeatures = [
         </svg>
     ),
     list: [
-      { label: 'La Cuevita Caprichosa', href: 'https://www.google.es/maps/place/La+Cueva+Caprichosa/@28.4386682,-16.3066852,17z/data=!3m1!4b1!4m6!3m5!1s0xc41cd2722c11a5d:0x6f8b6c741dd369cc!8m2!3d28.4386636!4d-16.3018143!16s%2Fg%2F1vhlzfk1?entry=ttu' },
-      { label: 'Casa Lito', href: 'https://www.google.es/maps/place/Guachinche+Casa+Lito/@28.422988,-16.4938047,17z/data=!3m1!4b1!4m6!3m5!1s0xc41d51f6799f8dd:0x9834d07494c6fe02!8m2!3d28.4229833!4d-16.4912298!16s%2Fg%2F11b6nz56fg?entry=ttu' },
+      {
+        title: 'Comida típica',
+        list: [
+          { label: 'Papas, piñas y costillas' },
+          { label: 'Papas arrugás con mojo' },
+          { label: 'Queso asado' },
+          { label: 'Ropa vieja' },
+          { label: 'Rancho' },
+          { label: 'Puchero' },
+          { label: 'Escaldon de gofio' },
+          { label: 'Conejo en salmorejo' },
+          { label: 'Garbanzas' },
+          { label: 'Dorada (cerveza)' },
+          { label: 'Polvito uruguyo (postre)' },
+          { label: 'Barraquito (café)' }
+        ]
+      },
+      {
+        title: 'Restaurantes en el Norte',
+        list: [
+          { label: 'Bodeguita de enfrente', href:'https://www.google.es/maps/place/La+Bodeguita+de+Enfrente/@28.4147561,-16.5088115,17.04z/data=!4m6!3m5!1s0xc41d503f814e3ab:0x267a8a6b75508720!8m2!3d28.4147493!4d-16.506335!16s%2Fg%2F11rwq88ggk?authuser=0&hl=es&entry=ttu' },
+          { label: 'Carmen (icod de los vinos)', href:'https://www.google.es/maps/place/Restaurante+Carmen/@28.3675975,-16.7239228,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87ffb0880037:0xd1d8ea3216a5f2f4!8m2!3d28.3675928!4d-16.7213479!16s%2Fg%2F1tdbb2dc?authuser=0&hl=es&entry=ttu' },
+          { label: 'Dios los cría y el viento los amontona', href:'https://www.google.es/maps/place/Restaurante+Dios+los+cria...+y+el+viento+los+amontona/@28.3901736,-16.5261391,17z/data=!3m1!4b1!4m6!3m5!1s0xc402bb3eabb87a5:0x29c9058691916352!8m2!3d28.3901689!4d-16.5235642!16s%2Fg%2F11j0rj46c1?authuser=0&hl=es&entry=ttu' },
+          { label: 'Tasca silbo gomero', href:'https://www.google.es/maps/place/Tasca+Silbo+Gomero/@28.4590327,-16.3047369,17z/data=!3m1!4b1!4m6!3m5!1s0xc41cda38f65e109:0x58ecb78a7a3cccc4!8m2!3d28.459028!4d-16.302162!16s%2Fg%2F11h036c0jf?authuser=0&hl=es&entry=ttu' }
+        ]
+      },
+      {
+        title: 'Guachinches',
+        list: [
+          { label: 'La cuevita caprichosa', href:'https://www.google.es/maps/place/La+Cueva+Caprichosa/@28.4386683,-16.3043892,17z/data=!3m1!4b1!4m6!3m5!1s0xc41cd2722c11a5d:0x6f8b6c741dd369cc!8m2!3d28.4386636!4d-16.3018143!16s%2Fg%2F1vhlzfk1?authuser=0&hl=es&entry=ttu' },
+          { label: 'Casa Lito', href:'https://www.google.es/maps/place/Guachinche+Casa+Lito/@28.422988,-16.4938047,17z/data=!3m1!4b1!4m6!3m5!1s0xc41d51f6799f8dd:0x9834d07494c6fe02!8m2!3d28.4229833!4d-16.4912298!16s%2Fg%2F11b6nz56fg?authuser=0&hl=es&entry=ttu' },
+          { label: 'Los Gómez', href:'https://www.google.es/maps/place/Guachinche+Los+Gomez/data=!4m7!3m6!1s0xc402b39a8b06d1d:0x1ac060be444c3778!8m2!3d28.3960493!4d-16.5073151!16s%2Fg%2F11v3q6gzy6!19sChIJHW2wqDkrQAwReDdMRL5gwBo?authuser=0&hl=es&rclk=1' },
+          { label: 'El cubano', href:'https://www.google.es/maps/place/Guachinche+El+Cubano/@28.3964094,-16.5041474,17z/data=!3m1!4b1!4m6!3m5!1s0xc402acc94de1343:0x2967c3b30ac678ce!8m2!3d28.3964094!4d-16.5041474!16s%2Fg%2F11b6r469sr?authuser=0&hl=es&entry=ttu' },
+          { label: 'La casona', href:'https://www.google.es/maps/place/Guachinche+La+Casona/@28.3859603,-16.5226133,17z/data=!3m1!4b1!4m6!3m5!1s0xc402ab0a0da1bf3:0x6718e59c88e35633!8m2!3d28.3859556!4d-16.5200384!16s%2Fg%2F11b76kg1x1?authuser=0&hl=es&entry=ttu' },
+          { label: 'El barco', href:'https://www.google.es/maps/place/Guachinche+El+Barco/data=!4m7!3m6!1s0xc41d49394fa5089:0x5e3e64d813025f23!8m2!3d28.4328941!4d-16.4599408!16s%2Fg%2F11bx4kq616!19sChIJiVD6lJPUQQwRI18CE9hkPl4?authuser=0&hl=es&rclk=1' },
+          { label: 'Finca el rincón de Edu (plataneras)', href:'https://www.google.es/maps/place/Finca+El+Rinc%C3%B3n/@28.4158552,-16.5189228,16.56z/data=!4m6!3m5!1s0xc41d540e7b9e87f:0x28c4a151e4dbbe54!8m2!3d28.4158123!4d-16.5152891!16s%2Fg%2F1hdzy95d4?authuser=0&hl=es&entry=ttu' }
+        ]
+      },
+      {
+        title: 'Tomar algo',
+        list: [
+          { label: 'El Abaco', href:'https://www.google.es/maps/place/Museo+%C3%81baco/@28.4055593,-16.5356367,17z/data=!3m1!4b1!4m6!3m5!1s0xc41d55825c679fd:0x966433b96f0d87ef!8m2!3d28.4055546!4d-16.5330618!16s%2Fg%2F1v_w3lxz?authuser=0&hl=es&entry=ttu' },
+          { label: 'El patio de mi casa (Icod de los Vinos)', href:'https://www.google.es/maps/place/El+Patio+de+los+Sentidos/@28.3670867,-16.7222101,17z/data=!4m10!1m2!2m1!1sEl+patio+de+mi+casa+(Icod+de+los+Vinos)!3m6!1s0xc6a87a5d3fbbe11:0x77d49d18d8eb1609!8m2!3d28.3670869!4d-16.7179469!15sCidFbCBwYXRpbyBkZSBtaSBjYXNhIChJY29kIGRlIGxvcyBWaW5vcylaJyIlZWwgcGF0aW8gZGUgbWkgY2FzYSBpY29kIGRlIGxvcyB2aW5vc5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnFMV05RUkdoQlJSQULgAQA!16s%2Fg%2F11vwyqp0_4?authuser=0&hl=es&entry=ttu' },
+          { label: 'Zambra Sky bar', href:'https://www.google.es/maps/place/Zambra+SkyBar/@28.0918428,-16.7415726,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a9770f2e2e021:0x4a8250cb2dc3601a!8m2!3d28.0918381!4d-16.7389977!16s%2Fg%2F11hy_g6b0p?authuser=0&hl=es&entry=ttu' },
+          { label: 'Las barandas', href:'https://www.google.es/maps/place/La+Baranda+Chill-Out/data=!4m7!3m6!1s0xc41d38c07fd4b8b:0xfb0dffb614e6fc86!8m2!3d28.4697102!4d-16.4343758!16s%2Fg%2F11bw5x_r61!19sChIJi0v9B4zTQQwRhvzmFLb_Dfs?authuser=0&hl=es&rclk=1' },
+          { label: 'Limbo (discoteca)', href:'https://www.google.es/maps/place/Limbo+Pub+Terraza/data=!4m7!3m6!1s0xc6a7f123e203997:0x60e41a321a7fe71e!8m2!3d28.4146629!4d-16.5501867!16s%2Fg%2F11v0px8yt0!19sChIJlzkgPhJ_agwRHud_GjIa5GA?authuser=0&hl=es&rclk=1' },
+          { label: 'Pez globo (discoteca)', href:'https://www.google.es/maps/place/Pez+Globo+-+Beach+Bar/@39.6801109,-0.2093164,17z/data=!3m1!4b1!4m6!3m5!1s0xd60166832549871:0x1505ab2de3e1bc3e!8m2!3d39.6801068!4d-0.2067415!16s%2Fg%2F11bvt3h9cr?authuser=0&hl=es&entry=ttu' }
+        ]
+      }
+    ]
+  },
+  {
+    images: [
+      Tenerife2,
+      Tenerife7
+    ],
+    title: "Peluquerías en Icod de los Vinos",
+    svg: (
+      <svg className="w-8 h-8 stroke-secondary" viewBox="0 0 64 64" version="1.1">
+          <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="clo-bowler">
+
+      </g>
+              <path d="M13,40 L49,40 C53.962,40 58,35.963 58,31 C58,30.448 57.552,30 57,30 C56.448,30 56,30.448 56,31 C56,34.519 53.387,37.432 50,37.92 L50,25 C50,14.523 41.477,6 31,6 C20.523,6 12,14.523 12,25 L12,37.92 C8.613,37.432 6,34.519 6,31 C6,30.448 5.552,30 5,30 C4.448,30 4,30.448 4,31 C4,35.963 8.038,40 13,40 L13,40 Z M31,8 C40.374,8 48,15.626 48,25 L48,38 L14,38 L14,25 C14,15.626 21.626,8 31,8 L31,8 Z" id="Shape" fill="#000000">
+
+      </path>
+              <path d="M16.08,52 C16.568,55.386 19.481,58 23,58 C26.519,58 29.432,55.386 29.92,52 L32.08,52 C32.568,55.386 35.481,58 39,58 C42.519,58 45.432,55.386 45.92,52 L49,52 C49.552,52 50,51.553 50,51 C50,50.447 49.552,50 49,50 L45.92,50 C45.432,46.614 42.519,44 39,44 C35.481,44 32.568,46.614 32.08,50 L29.92,50 C29.432,46.614 26.519,44 23,44 C19.481,44 16.568,46.614 16.08,50 L13,50 C12.448,50 12,50.447 12,51 C12,51.553 12.448,52 13,52 L16.08,52 L16.08,52 Z M39,46 C41.757,46 44,48.243 44,51 C44,53.757 41.757,56 39,56 C36.243,56 34,53.757 34,51 C34,48.243 36.243,46 39,46 L39,46 Z M23,46 C25.757,46 28,48.243 28,51 C28,53.757 25.757,56 23,56 C20.243,56 18,53.757 18,51 C18,48.243 20.243,46 23,46 L23,46 Z" id="Shape" fill="#000000">
+
+      </path>
+          </g>
+      </svg>
+    ),
+    list: [
+      { label: 'Marco peluqueros', href:'https://www.google.es/maps/place/Marco+Peluqueros/@28.3681061,-16.7198538,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a8760e1c1f751:0x2332fbc6eae374be!8m2!3d28.3681014!4d-16.7172789!16s%2Fg%2F11h_ft1lws?authuser=0&hl=es&entry=ttu' },
+      { label: 'Salon de Belleza Yuya', href:'https://www.google.es/maps/place/Sal%C3%B3n+de+belleza+Yuya/@28.3682752,-16.7210365,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fed8427311:0x938241872d2f2ec5!8m2!3d28.3682705!4d-16.7184616!16s%2Fg%2F11crzjg11g?authuser=0&hl=es&entry=ttu' },
+      { label: 'Sara', href:'https://www.google.es/maps/place/Sara+Peluquer%C3%ADa/@28.3682287,-16.7194407,17z/data=!3m2!4b1!5s0xc6a87f928c6b83d:0x3fd4207efb0bda82!4m6!3m5!1s0xc6a879f604bf04f:0xbb869d6c5967b4bd!8m2!3d28.368224!4d-16.7168658!16s%2Fg%2F11vk141sqg?authuser=0&hl=es&entry=ttu' }
     ]
   },
 ] as FeatureType[];

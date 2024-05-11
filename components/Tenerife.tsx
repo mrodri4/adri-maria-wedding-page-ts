@@ -61,7 +61,7 @@ const Item = ({
         }
       >
         {feature.list && (
-          <ul className="pl-4 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:gap-y-0 lg:grid-cols-1 gap-3 my-4">
+          <ul className="pl-4 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:grid-cols-1 my-4">
             {(feature.list as Record<string, string>[]).map((item) => (
               <li
                 key={item.title ?? item.label}>
@@ -71,7 +71,11 @@ const Item = ({
                     <ul className="pl-4 flex flex-col gap-3">
                       {(item as unknown as Record<string, Object[]>).list.map((subitem: Record<string, string>) => (
                         <li key={subitem.label}>
-                          <a className="underline" target="_blank" href={subitem.href}>{subitem.label}</a>
+                          {subitem.href ? (
+                            <a className="underline" target="_blank" href={subitem.href}>{subitem.label}</a>
+                          ) : (
+                            <span>{subitem.label}</span>
+                          )}
                         </li>
                       ))}
                     </ul>
