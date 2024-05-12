@@ -59,7 +59,7 @@ function AsistenciaForm() {
           <p>Banco: Openbank.</p>
           <p>Beneficiarios: María y Adrián.</p>
           <p>Concepto: Boda MA.</p>
-          <button className="btn" onClick={() => {
+          <button className="btn mt-4" onClick={() => {
             navigator.clipboard.writeText('ES3800730100570821271177');
             toast.success('IBAN copiado al portapapeles');
           }}>
