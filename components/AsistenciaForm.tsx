@@ -1,5 +1,7 @@
 'use client';
 
+import { toast } from "react-hot-toast";
+
 function AsistenciaForm() {
   return (
     <div className="w-full flex flex-col gap-4">
@@ -7,19 +9,19 @@ function AsistenciaForm() {
         <div className="label">
           <span className="label-text">Nombre completo:</span>
         </div>
-        <input type="text" placeholder="Nombre y Apellidos" className="input input-bordered w-full" />
+        <input type="text" className="input input-bordered w-full" />
       </label>
       <label className="form-control w-full">
         <div className="label">
           <span className="label-text">Acompañantes:</span>
         </div>
-        <input type="number" placeholder="1" className="input input-bordered w-full" />
+        <input type="number" className="input input-bordered w-full" />
       </label>
       <label className="form-control w-full">
         <div className="label">
           <span className="label-text">Teléfono:</span>
         </div>
-        <input type="text" placeholder="Introduce tu teléfono" className="input input-bordered w-full" />
+        <input type="text" className="input input-bordered w-full" />
       </label>
       <label className="form-control w-full">
         <div className="label">
@@ -47,7 +49,7 @@ function AsistenciaForm() {
         <div className="label">
           <span className="label-text">Canción que no puede faltar:</span>
         </div>
-        <input type="text" placeholder="Amaral - Son mis amigos" className="input input-bordered w-full" />
+        <input type="text" className="input input-bordered w-full" />
       </label>
       <div className="flex flex-col gap-4">
         <p>Hemos decidido que nuestra Luna de miel la vamos a disfrutar en Madagascar e Islas Mauricio.  Como sabéis, son dos lugares que siempre nos han llamado la atención desde que empezamos a mirar destinos y qué mejor momento que ahora para poder cumplir este sueño.</p>
@@ -58,6 +60,7 @@ function AsistenciaForm() {
           <p>Concepto: Boda MA.</p>
           <button className="btn" onClick={() => {
             navigator.clipboard.writeText('ES3800730100570821271177');
+            toast.success('IBAN copiado al portapapeles');
           }}>
             IBAN: ES3800730100570821271177
           </button>

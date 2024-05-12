@@ -36,7 +36,7 @@ export const TenerifeFeatures = [
       Tenerife13
     ],
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.21 205.21">
+      <svg className="w-10 h-10 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.21 205.21">
       <path d="M184.056,201.262H18.295c-0.887,0-1.668-0.584-1.918-1.436c-0.25-0.851,0.089-1.765,0.835-2.246
         c10.761-6.932,23.797-12.386,38.126-16.105c-0.11-0.258-0.167-0.543-0.158-0.843c0.011-0.357,1.061-36.142-2.008-70.242
         C50.651,82.367,43.36,51.123,40.8,40.722c-0.313-0.189-0.574-0.464-0.748-0.803c-0.027-0.054-0.052-0.109-0.075-0.165
@@ -183,7 +183,7 @@ export const TenerifeFeatures = [
       Tenerife9
     ],
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.399 196.399">
+      <svg className="w-10 h-10 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.399 196.399">
         <path d="M98.468,187.382c-25.841,0-50.183-9.96-68.63-28.103c-18.645-18.338-29.033-42.839-29.25-68.99L0,19.628
           c-0.004-0.53,0.202-1.041,0.575-1.42l1.245-1.265c3.765-3.828,8.796-5.961,14.166-6.006c0.057,0,0.115-0.001,0.172-0.001
           c5.306,0,10.305,2.046,14.093,5.771l0.174,0.171c3.069,3.019,7.115,4.633,11.429,4.624c4.301-0.036,8.332-1.744,11.348-4.812
@@ -343,7 +343,7 @@ export const TenerifeFeatures = [
       Tenerife10
     ],
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 196">
+      <svg className="w-10 h-10 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 196">
         <path d="M98,196c-54.037,0-98-43.962-98-98S43.963,0,98,0s98,43.962,98,98S152.037,196,98,196z M98,4C46.168,4,4,46.168,4,98
           s42.168,94,94,94s94-42.168,94-94S149.832,4,98,4z M98,180c-45.215,0-82-36.785-82-82s36.785-82,82-82s82,36.785,82,82
           S143.215,180,98,180z M98,20c-43.01,0-78,34.991-78,78s34.99,78,78,78s78-34.991,78-78S141.01,20,98,20z M98.868,169.131
@@ -408,7 +408,7 @@ export const TenerifeFeatures = [
       Tenerife6
     ],
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" viewBox="0 0 64 64" version="1.1">
+      <svg className="w-10 h-10 stroke-secondary" viewBox="0 0 64 64" version="1.1">
             <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="clo-converse">
 
@@ -463,7 +463,7 @@ export const TenerifeFeatures = [
       Tenerife6
     ],
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.271 199.271">
+      <svg className="w-10 h-10 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.271 199.271">
         <path d="M161.93,159.103c-20.59,0-37.341-16.751-37.341-37.341c0-14.536,8.35-27.159,20.505-33.325
           c-0.409-3.099-0.627-5.864-0.743-7.954l-44.026,34.482c1.134,2.01,1.781,4.329,1.781,6.797c0,6.974-5.171,12.763-11.879,13.735
           v5.669h3.904c1.104,0,2,0.896,2,2s-0.896,2-2,2h-12.52c-1.104,0-2-0.896-2-2s0.896-2,2-2h4.615v-5.669
@@ -521,7 +521,7 @@ export const TenerifeFeatures = [
     ],
     title: "Gastronomía",
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.67 199.67">
+      <svg className="w-10 h-10 stroke-secondary" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.67 199.67">
         <path d="M132.634,177.391c-0.904,0-1.786-0.016-2.625-0.031c-0.76-0.014-1.489-0.026-2.172-0.026c-5.271,0-18.394-2.254-21.553-2.81
           c-4.22,2.117-9.162,2.04-13.329-0.226c-0.119,0.047-0.245,0.082-0.375,0.106c-0.665,0.119-16.338,2.929-22.225,2.929
           c-0.682,0-1.412,0.013-2.172,0.026c-6.008,0.109-14.238,0.254-17.436-5.621c-2.883-5.296-3.566-20.022-3.693-23.687
@@ -619,7 +619,7 @@ export const TenerifeFeatures = [
     ],
     title: "Peluquerías en Icod de los Vinos",
     svg: (
-      <svg className="w-8 h-8 stroke-secondary" viewBox="0 0 64 64" version="1.1">
+      <svg className="w-10 h-10 stroke-secondary" viewBox="0 0 64 64" version="1.1">
           <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="clo-bowler">
 

@@ -47,7 +47,7 @@ const Item = ({
             isOpen ? "text-primary font-semibold" : ""
           }`}
         >
-          <h4 className="inline">{title}</h4>
+          <h4 className="inline text-xl">{title}</h4>
         </span>
       </button>
 
@@ -61,14 +61,14 @@ const Item = ({
         }
       >
         {feature.list && (
-          <ul className="pl-4 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:grid-cols-1 my-4">
+          <ul className="pl-8 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:grid-cols-1 my-4">
             {(feature.list as Record<string, string>[]).map((item) => (
               <li
                 key={item.title ?? item.label}>
                 {(item.title) ? (
                   <>
-                    <span className="text-primary text-lg my-4 block font-bold">{item.title}</span>
-                    <ul className="pl-4 flex flex-col gap-3">
+                    <span className="text-primary text-lg block font-bold">{item.title}</span>
+                    <ul className="pl-8 flex flex-col gap-3 my-4">
                       {(item as unknown as Record<string, Object[]>).list.map((subitem: Record<string, string>) => (
                         <li key={subitem.label}>
                           {subitem.href ? (
