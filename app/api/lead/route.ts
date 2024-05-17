@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     const { companions, transport, name, phone, menu, song } = body;
 
     await sendEmail({
-      to: process.env.LEAD_TO_EMAIL,
+      to: 'calvosabonis@hotmail.com',
       subject: 'Confirmación de asistencia a la boda',
       html: `<h3>Hola chicos, soy ${name} y te confirmo que iré a la boda.</h3>
         </p>Nombre: ${name}</p>
