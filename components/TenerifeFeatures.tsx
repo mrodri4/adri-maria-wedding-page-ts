@@ -409,7 +409,7 @@ export const TenerifeFeatures = [
     ],
     svg: (
       <svg className="w-10 h-10 stroke-secondary" viewBox="0 0 64 64" version="1.1">
-            <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="64px-Line" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <g id="clo-converse">
 
         </g>
@@ -620,7 +620,7 @@ export const TenerifeFeatures = [
     title: "Peluquerías en Icod de los Vinos",
     svg: (
       <svg className="w-10 h-10 stroke-secondary" viewBox="0 0 64 64" version="1.1">
-          <g id="64px-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="64px-Line" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
               <g id="clo-bowler">
 
       </g>

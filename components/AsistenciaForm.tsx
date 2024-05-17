@@ -1,5 +1,6 @@
 'use client';
 
+import apiClient from "@/libs/api";
 import { FormEvent, useMemo, useState } from "react";
 import { toast } from "react-hot-toast";
 
@@ -8,7 +9,7 @@ function AsistenciaForm() {
   const [value, setValue] = useState({
     companions: 0,
     transport: 'Sí',
-    name: '',
+    name: 'Prueba de manu',
     phone: '',
     menu: 'Estándar',
     song: ''
@@ -22,21 +23,17 @@ function AsistenciaForm() {
     e?.preventDefault();
 
     console.log(value);
-    // setIsLoading(true);
-    // try {
-    //   await apiClient.post("/lead", { email });
+    setIsLoading(true);
+    try {
+      await apiClient.post("/lead", value);
 
-    //   toast.success("Thanks for joining the waitlist!");
+      toast.success("Gracias por confirmar tu asistencia.");
 
-    //   // just remove the focus on the input
-    //   inputRef.current.blur();
-    //   setEmail("");
-    //   setIsDisabled(true);
-    // } catch (error) {
-    //   console.log(error);
-    // } finally {
-    //   setIsLoading(false);
-    // }
+    } catch (error) {
+      toast.error("Ha ocurrido un error.");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
