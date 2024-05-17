@@ -5,13 +5,12 @@ import { sendEmail } from "@/libs/mailgun";
 // The API call is initiated by <ButtonLead /> component
 // Duplicate emails just return 200 OK
 export async function POST(req: NextRequest) {
-  const body = await req.json();
-
   try {
+    const body = await req.json();
     const { companions, transport, name, phone, menu, song } = body;
 
     await sendEmail({
-      to: process.env.LEAD_TO_EMAIL,
+      to: 'manu.rgcz@gmail.com',
       subject: 'Confirmación de asistencia a la boda',
       html: `<h3>Hola chicos, soy ${name} y te confirmo que iré a la boda.</h3>
         </p>Nombre: ${name}</p>
