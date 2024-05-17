@@ -7,9 +7,9 @@ import { toast } from "react-hot-toast";
 function AsistenciaForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [value, setValue] = useState({
-    companions: 0,
+    companions: 1,
     transport: 'Sí',
-    name: 'Prueba de manu',
+    name: '',
     phone: '',
     menu: 'Estándar',
     song: ''
