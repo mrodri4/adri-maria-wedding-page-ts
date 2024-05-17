@@ -22,12 +22,19 @@ function AsistenciaForm() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
 
-    console.log(value);
     setIsLoading(true);
     try {
       await apiClient.post("/lead", value);
 
       toast.success("Gracias por confirmar tu asistencia.");
+      setValue({
+        companions: 1,
+        transport: 'Sí',
+        name: '',
+        phone: '',
+        menu: 'Estándar',
+        song: ''
+      });
 
     } catch (error) {
       toast.error("Ha ocurrido un error.");
