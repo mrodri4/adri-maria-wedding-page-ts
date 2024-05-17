@@ -21,13 +21,6 @@ export interface FeatureType {
   list?: { label: string; href: string }[] | { title: string; list: { label: string; href: string }[] }[];
 }
 
-// The features array is a list of features that will be displayed in the accordion.
-// - title: The title of the feature
-// - description: The description of the feature (when clicked)
-// - type: The type of media (video or image)
-// - path: The path to the media (for better SEO, try to use a local path)
-// - format: The format of the media (if type is 'video')
-// - alt: The alt text of the image (if type is 'image')
 export const TenerifeFeatures = [
   {
     title: "Playas",
