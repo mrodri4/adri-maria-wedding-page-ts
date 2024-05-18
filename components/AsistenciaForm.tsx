@@ -29,7 +29,7 @@ function AsistenciaForm() {
       toast.success("Gracias por confirmar tu asistencia.");
       setValue({
         companions: 1,
-        transport: 'Sí',
+        transport: 'Para mí',
         name: '',
         phone: '',
         menu: 'Estándar',
@@ -123,7 +123,8 @@ function AsistenciaForm() {
             transport: e.target.value
           }))}
         >
-          <option>Sí</option>
+          <option>Para mí</option>
+          <option>Para mí y mis acompañantes</option>
           <option>No</option>
         </select>
       </label>
