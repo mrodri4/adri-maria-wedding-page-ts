@@ -61,7 +61,7 @@ const Item = ({
         }
       >
         {feature.list && (
-          <ul className="pl-8 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:grid-cols-1 my-4">
+          <ul className="pl-8 grid sm:grid-cols-2 gap-x-24 gap-y-2 lg:gap-x-0 lg:grid-cols-1 my-4 text-left">
             {(feature.list as Record<string, string>[]).map((item) => (
               <li
                 key={item.title ?? item.label}>
@@ -146,24 +146,24 @@ const Tenerife = () => {
   const [featureSelected, setFeatureSelected] = useState<number>(1);
 
   return (
-    <section
-      className="flex px-8 py-8 lg:py-32 space-y-24 lg:space-y-32 max-w-7xl mx-auto relative lg:min-h-screen"
-      id="tenerife"
-    >
-      <div className="lg:px-8">
-        <Image
-          className="mx-auto min-w-32 w-[10vw] mb-8 lg:absolute lg:-top-16 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-14"
-          src={Leaves3}
-          alt="Leaves"
-          priority={true}
-          width={500}
-          height={500}
-        />
-        <h2 className={clsx("text-primary text-center lg:text-left text-4xl lg:text-6xl mb-8", font.className)}>
-          TENERIFE
-        </h2>
-        <div className="flex flex-col gap-10 items-center lg:items-start">
-          <div className="flex flex-col gap-4 items-center lg:items-start w-4/5 lg:w-3/5">
+    <section id="tenerife" className="md:min-h-screen">
+      <Image
+        className="min-w-32 w-[10vw] mx-auto"
+        src={Leaves3}
+        alt="Leaves"
+        priority={true}
+        width={500}
+        height={500}
+      />
+      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row justify-center gap-16 lg:gap-32 px-8 py-8 lg:py-20">
+        <div className="max-lg:min-w-[50%] md:w-2/5 relative shrink-0 lg:mt-[33%]">
+          <Media feature={TenerifeFeatures[featureSelected]} key={featureSelected} />
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center text-center lg:text-left lg:items-start">
+          <h2 className={clsx("text-primary text-4xl lg:text-6xl mb-8", font.className)}>
+            TENERIFE
+          </h2>
+          <div className="flex flex-col gap-4 items-center lg:items-start lg:max-w-[90%]">
             <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
               Para que podáis conocer y disfrutar mejor de Tenerife, os hemos preparado un listado con recomendaciones y lugares imprescindibles de la isla. Desde charcos y playas hasta la montaña, pasando por la mejor gastronomía del lugar.
             </p>
@@ -173,8 +173,6 @@ const Tenerife = () => {
             <p className="text-lg opacity-80 leading-relaxed text-center lg:text-left">
               Disfrutad de la isla, ¡disfrutad del paraíso!
             </p>
-          </div>
-          <div className="grid grid-cols-1 items-stretch gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-32">
             <ul className="w-full">
               {TenerifeFeatures.map((feature, i) => (
                 <Item
@@ -186,8 +184,6 @@ const Tenerife = () => {
                 />
               ))}
             </ul>
-
-            <Media feature={TenerifeFeatures[featureSelected]} key={featureSelected} />
           </div>
         </div>
       </div>
