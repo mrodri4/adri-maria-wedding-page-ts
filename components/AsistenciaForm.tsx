@@ -112,8 +112,9 @@ function AsistenciaForm() {
         </select>
       </label>
       <label className="form-control w-full">
-        <div className="label">
+        <div className="label gap-1 flex flex-col items-start">
           <span className="label-text">Necesitas transporte para ir a la finca:</span>
+          <span className="label-text font-extralight text-left">El transporte saldrá a las 12:00h desde el restaurante Carmen. Plaza Icod de los vinos.</span>
         </div>
         <select
           className="select select-bordered"
