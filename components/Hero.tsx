@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Playfair_Display_SC } from "next/font/google";
-import { Parisienne } from "next/font/google";
 
 import AdriMaria from "@/public/images/adri-maria-hero.jpg";
 
@@ -12,10 +11,6 @@ const font = Playfair_Display_SC({
   weight: ["400", "700", "900"]
 });
 
-const letteringFont = Parisienne({
-  subsets: ["latin"],
-  weight: ["400"]
-});
 
 const Hero = () => {
   return (
@@ -25,33 +20,13 @@ const Hero = () => {
           <h1 className={clsx("hidden lg:block text-primary text-4xl lg:text-6xl mb-8", font.className)}>
             MARÍA Y ADRIÁN
           </h1>
-          <div className="flex flex-col gap-2 lg:hidden">
-            <p className={clsx(
-              "text-[1.6rem] opacity-80 leading-relaxed flex",
-              letteringFont.className
-            )}>
-              “Cuando menos los esperaba, encontré en Adri todo. Mi godo canario.”
-            </p>
-            <p className={clsx(
-              "text-[1.4rem] opacity-80 leading-relaxed flex self-center my-2",
-              letteringFont.className
-            )}>
-              María
-            </p>
-            <p className={clsx(
-              "text-[1.6rem] opacity-80 leading-relaxed flex",
-              letteringFont.className
-            )}>
-              “Mientras el mundo se paraba, yo me estaba enamorando.”
-            </p>
-            <p className={clsx(
-              "text-[1.4rem] opacity-80 leading-relaxed flex self-center my-2",
-              letteringFont.className
-            )}>
-              Adrián
-            </p>
-          </div>
           <div className="mt-4 flex flex-col gap-5">
+            <p className="text-lg opacity-80 leading-relaxed">
+              ¡Bienvenidos a la página web de nuestra boda!
+            </p>
+            <p className="text-lg opacity-80 leading-relaxed">
+              Toda historia que merece ser contada tiene un bonito principio. Y esta no podría ser menos.
+            </p>
             <p className="text-lg opacity-80 leading-relaxed">
               Nos conocimos en plena pandemia, en un momento donde el mundo estaba revolucionado. Después de llamarnos la atención mutuamente durante los largos turnos de trabajo, acabamos quedando para cenar una noche y conocernos mejor.
             </p>
