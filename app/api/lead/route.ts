@@ -7,7 +7,7 @@ import { sendEmail } from "@/libs/mailgun";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { companions, transport, name, phone, menu, song } = body;
+    const { companionNames, transport, name, phone, menu, song } = body;
 
     await sendEmail({
       to: 'calvosabonis@hotmail.com',
@@ -15,7 +15,10 @@ export async function POST(req: NextRequest) {
       html: `<h3>Hola chicos, soy ${name} y te confirmo que iré a la boda.</h3>
         </p>Nombre: ${name}</p>
         <p>Teléfono: ${phone}</p>
-        <p>Acompañantes: ${companions}</p>
+        <p>Acompañantes:</p>
+        <ul>
+          ${companionNames.map((c: string) => `<li>${c}</li>`).join('')}
+        </ul>
         <p>Menú: ${menu}</p>
         <p>Transporte: ${transport}</p>
         <p>Canción: ${song}</p>

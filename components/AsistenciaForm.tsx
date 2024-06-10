@@ -12,12 +12,37 @@ function AsistenciaForm() {
     name: '',
     phone: '',
     menu: 'Estándar',
-    song: ''
+    song: '',
+    companionNames: ['']
   });
 
   const isDisabled = useMemo(() => {
     return !value.name || !value.phone || !value.menu || !value.song;
   }, [value]);
+
+  const handleCompanionChange = (index: number, name: string) => {
+    const newCompanionNames = [...value.companionNames];
+    newCompanionNames[index] = name;
+    setValue((p) => ({
+      ...p,
+      companionNames: newCompanionNames
+    }));
+  };
+
+  const handleCompanionsCountChange = (count: number) => {
+    const newCompanionNames = [...value.companionNames];
+    while (newCompanionNames.length < count) {
+      newCompanionNames.push('');
+    }
+    while (newCompanionNames.length > count) {
+      newCompanionNames.pop();
+    }
+    setValue((p) => ({
+      ...p,
+      companions: count,
+      companionNames: newCompanionNames
+    }));
+  };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
@@ -37,7 +62,8 @@ function AsistenciaForm() {
         name: '',
         phone: '',
         menu: 'Estándar',
-        song: ''
+        song: '',
+        companionNames: ['']
       });
 
     } catch (error) {
@@ -74,12 +100,22 @@ function AsistenciaForm() {
           type="number"
           className="input input-bordered w-full"
           value={value.companions}
-          onChange={(e) => setValue((p) => ({
-            ...p,
-            companions: parseInt(e.target.value)
-          }))}
+          onChange={(e) => handleCompanionsCountChange(parseInt(e.target.value))}
         />
       </label>
+      {value.companionNames.map((companionName, index) => (
+        <label key={index} className="form-control w-full">
+          <div className="label">
+            <span className="label-text">Nombre del acompañante {index + 1}:</span>
+          </div>
+          <input
+            type="text"
+            className="input input-bordered w-full"
+            value={companionName}
+            onChange={(e) => handleCompanionChange(index, e.target.value)}
+          />
+        </label>
+      ))}
       <label className="form-control w-full">
         <div className="label">
           <span className="label-text">Teléfono:</span>
@@ -189,7 +225,7 @@ function AsistenciaForm() {
         )}
       </button>
     </form>
-  )
+  );
 }
 
-export default AsistenciaForm
+export default AsistenciaForm;
