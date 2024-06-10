@@ -135,7 +135,7 @@ function AsistenciaForm() {
       </label>
       <label className="form-control w-full">
         <div className="label">
-          <span className="label-text">Canción que no puede faltar:</span>
+          <span className="label-text">Añade la canción que no puede faltar el día de nuestra boda:</span>
         </div>
         <input
           type="text"
