@@ -629,7 +629,11 @@ export const TenerifeFeatures = [
     list: [
       { label: 'Marco peluqueros', href:'https://www.google.es/maps/place/Marco+Peluqueros/@28.3681061,-16.7198538,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a8760e1c1f751:0x2332fbc6eae374be!8m2!3d28.3681014!4d-16.7172789!16s%2Fg%2F11h_ft1lws?authuser=0&hl=es&entry=ttu' },
       { label: 'Salon de Belleza Yuya', href:'https://www.google.es/maps/place/Sal%C3%B3n+de+belleza+Yuya/@28.3682752,-16.7210365,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fed8427311:0x938241872d2f2ec5!8m2!3d28.3682705!4d-16.7184616!16s%2Fg%2F11crzjg11g?authuser=0&hl=es&entry=ttu' },
-      { label: 'Sara', href:'https://www.google.es/maps/place/Sara+Peluquer%C3%ADa/@28.3682287,-16.7194407,17z/data=!3m2!4b1!5s0xc6a87f928c6b83d:0x3fd4207efb0bda82!4m6!3m5!1s0xc6a879f604bf04f:0xbb869d6c5967b4bd!8m2!3d28.368224!4d-16.7168658!16s%2Fg%2F11vk141sqg?authuser=0&hl=es&entry=ttu' }
+      { label: 'Sara', href:'https://www.google.es/maps/place/Sara+Peluquer%C3%ADa/@28.3682287,-16.7194407,17z/data=!3m2!4b1!5s0xc6a87f928c6b83d:0x3fd4207efb0bda82!4m6!3m5!1s0xc6a879f604bf04f:0xbb869d6c5967b4bd!8m2!3d28.368224!4d-16.7168658!16s%2Fg%2F11vk141sqg?authuser=0&hl=es&entry=ttu' },
+      { label: 'Carolina Martin', href: 'https://www.google.es/maps/place/Cm+Salon+De+Belleza+CAROLINA+MARTIN/@28.3675841,-16.7202864,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a875fbca66447:0x9cd1af40fe21eeaa!8m2!3d28.3675794!4d-16.7177115!16s%2Fg%2F11ksvfgwhr?hl=es&entry=ttu' },
+      { label: 'Beauty Salon', href: 'https://www.google.es/maps/place/Beauty+Salon+Icod/@28.3675935,-16.7202864,17z/data=!3m1!5s0xc6a87fece10486f:0x9ce2ccf481bb4219!4m6!3m5!1s0xc6a87fed1f930d9:0xee8f28f11d0bc103!8m2!3d28.3677282!4d-16.7180216!16s%2Fg%2F11hbgj6h3k?hl=es&entry=ttu' },
+      { label: 'Jaabs Sibisse', href: 'https://www.google.es/maps/place/Jaabs+Sibisse+Peluquer%C3%ADa+y+Est%C3%A9tica/@28.3672277,-16.7212721,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a87fc64efad71:0xb8c49999ff44aca8!8m2!3d28.367223!4d-16.7186972!16s%2Fg%2F11cmcftbx5?hl=es&entry=ttu' },
+      { label: 'Thais', href: 'https://www.google.es/maps/place/Thais+Peluquer%C3%ADa-Est%C3%A9tica/@28.3712986,-16.7134395,17z/data=!3m2!4b1!5s0xc6a87f7e590af41:0xb73f721dc8f81678!4m6!3m5!1s0xc6a87f7efdc5b31:0x7be425846472b3b6!8m2!3d28.3712939!4d-16.7108646!16s%2Fg%2F11h04npqm4?hl=es&entry=ttu' }
     ]
   },
 ] as FeatureType[];
