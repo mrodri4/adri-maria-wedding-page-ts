@@ -22,6 +22,10 @@ function AsistenciaForm() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
 
+    if (isDisabled) {
+      return;
+    }
+
     setIsLoading(true);
     try {
       await apiClient.post("/lead", value);
@@ -150,10 +154,13 @@ function AsistenciaForm() {
           <p>Banco: Openbank.</p>
           <p>Beneficiarios: María y Adrián.</p>
           <p>Concepto: Boda MA.</p>
-          <button className="btn mt-4" onClick={() => {
-            navigator.clipboard.writeText('ES3800730100570821271177');
-            toast.success('IBAN copiado al portapapeles');
-          }}>
+          <button
+            className="btn mt-4"
+            type="button"
+            onClick={() => {
+              navigator.clipboard.writeText('ES3800730100570821271177');
+              toast.success('IBAN copiado al portapapeles');
+            }}>
             IBAN: ES3800730100570821271177
           </button>
         </div>
