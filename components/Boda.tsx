@@ -15,7 +15,7 @@ const font = Playfair_Display_SC({
 const data = {
   date: '14 SEPTIEMBRE 2024',
   place: 'https://www.google.com/maps/place/Finca+Qui%C3%B1ones/@28.368198,-16.8096417,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a6377fb290af3:0x5ad4a64ff65e20d3!8m2!3d28.3681933!4d-16.8070614!16s%2Fg%2F11h6lqfw2y?entry=ttu',
-  time: '13:00',
+  time: '12:30',
   title: 'BODA'
 };
 
