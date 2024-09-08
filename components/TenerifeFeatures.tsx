@@ -596,11 +596,10 @@ export const TenerifeFeatures = [
         title: 'Tomar algo',
         list: [
           { label: 'El Abaco', href:'https://www.google.es/maps/place/Museo+%C3%81baco/@28.4055593,-16.5356367,17z/data=!3m1!4b1!4m6!3m5!1s0xc41d55825c679fd:0x966433b96f0d87ef!8m2!3d28.4055546!4d-16.5330618!16s%2Fg%2F1v_w3lxz?authuser=0&hl=es&entry=ttu' },
-          { label: 'El patio de mi casa (Icod de los Vinos)', href:'https://www.google.es/maps/place/El+Patio+de+los+Sentidos/@28.3670867,-16.7222101,17z/data=!4m10!1m2!2m1!1sEl+patio+de+mi+casa+(Icod+de+los+Vinos)!3m6!1s0xc6a87a5d3fbbe11:0x77d49d18d8eb1609!8m2!3d28.3670869!4d-16.7179469!15sCidFbCBwYXRpbyBkZSBtaSBjYXNhIChJY29kIGRlIGxvcyBWaW5vcylaJyIlZWwgcGF0aW8gZGUgbWkgY2FzYSBpY29kIGRlIGxvcyB2aW5vc5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnFMV05RUkdoQlJSQULgAQA!16s%2Fg%2F11vwyqp0_4?authuser=0&hl=es&entry=ttu' },
+          { label: 'El patio de mi casa (Icod de los Vinos)', href:'https://maps.app.goo.gl/aAh5oSV9Kf6bjM6DA' },
           { label: 'Zambra Sky bar', href:'https://www.google.es/maps/place/Zambra+SkyBar/@28.0918428,-16.7415726,17z/data=!3m1!4b1!4m6!3m5!1s0xc6a9770f2e2e021:0x4a8250cb2dc3601a!8m2!3d28.0918381!4d-16.7389977!16s%2Fg%2F11hy_g6b0p?authuser=0&hl=es&entry=ttu' },
           { label: 'Las barandas', href:'https://www.google.es/maps/place/La+Baranda+Chill-Out/data=!4m7!3m6!1s0xc41d38c07fd4b8b:0xfb0dffb614e6fc86!8m2!3d28.4697102!4d-16.4343758!16s%2Fg%2F11bw5x_r61!19sChIJi0v9B4zTQQwRhvzmFLb_Dfs?authuser=0&hl=es&rclk=1' },
-          { label: 'Limbo (discoteca)', href:'https://www.google.es/maps/place/Limbo+Pub+Terraza/data=!4m7!3m6!1s0xc6a7f123e203997:0x60e41a321a7fe71e!8m2!3d28.4146629!4d-16.5501867!16s%2Fg%2F11v0px8yt0!19sChIJlzkgPhJ_agwRHud_GjIa5GA?authuser=0&hl=es&rclk=1' },
-          { label: 'Pez globo (discoteca)', href:'https://www.google.es/maps/place/Pez+Globo+-+Beach+Bar/@39.6801109,-0.2093164,17z/data=!3m1!4b1!4m6!3m5!1s0xd60166832549871:0x1505ab2de3e1bc3e!8m2!3d39.6801068!4d-0.2067415!16s%2Fg%2F11bvt3h9cr?authuser=0&hl=es&entry=ttu' }
+          { label: 'Limbo (discoteca)', href:'https://www.google.es/maps/place/Limbo+Pub+Terraza/data=!4m7!3m6!1s0xc6a7f123e203997:0x60e41a321a7fe71e!8m2!3d28.4146629!4d-16.5501867!16s%2Fg%2F11v0px8yt0!19sChIJlzkgPhJ_agwRHud_GjIa5GA?authuser=0&hl=es&rclk=1' }
         ]
       }
     ]
